@@ -1,0 +1,182 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+	transition: 0.3s;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.inline{
+	display: inline-block;
+}
+
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+
+header{
+	padding: 20px 0 20px 0;
+}
+
+.header_menu{
+	list-style: none;
+	float: right;
+}
+
+.header_menu-item a{
+	text-decoration: none;
+	color: #121f27;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+.header_menu-item a:hover{
+	color: #000;
+}
+
+.header_menu-item i{
+	font-size: 25px;
+}
+
+.header_menu-item{
+	margin-left: 30px;
+}
+
+/* ABOUGT ME */
+
+.aboutme{
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 700;
+	line-height: 1.2;
+	color: #121f27;
+	padding: 20px 0 60px 0;
+}
+
+.aboutme_hello-title{
+font-size: 60px;
+}
+
+.aboutme_name{
+	margin-top: 20px;
+	font-size: 50px;
+	line-height: 1;
+}
+
+.aboutme_skills{
+	margin-top: 20px;
+	font-size: 40px;
+}
+
+.aboutme_skills-list-item{
+	font-size: 20px;
+}
+
+.aboutme_skills-list{
+	list-style: inside;
+	margin-top: 20px;
+}
+
+/* Section practise */
+
+.practice_caption{
+	text-align: center;
+	color: #FFF;
+	font-size: 50px;
+	margin-bottom: 80px;
+	font-weight: 700;
+}
+
+.practice{
+	background-color: #6191A8;
+	padding: 60px 0 150px 0;
+}
+
+.slick-slider{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.slider-immage{
+	width: 100%
+}
+
+.work-link{
+	display: block;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.work-link:hover{
+	opacity: 0.7;
+}
+
+/* Contacts Section */
+
+.contacts{
+	background-color: #121f27;
+	color: #fff;
+	padding: 2% 0 1.7% 0;
+}
+
+.contacts_photo{
+	border-radius: 50%;
+	margin-left: 29%;   
+}
+
+.contacts_social-list{
+	list-style: none;
+	font-size: 25px;
+	vertical-align: top;
+	margin-top: 2%;
+	margin-left: 3%;
+}
+
+.contacts_social-list i{
+	font-size: 37px;
+	line-height: 60px;
+	position: relative;
+	top: 4px;
+}
+
+.contacts_social-list-item{
+	height: 60px;
+	cursor: pointer;
+}
+
+.link{
+	text-decoration: none;
+	color: #FFF;
+	font-family: 'PT Sans Narrow', sans-serif;
+	
+}
+
+.link:hover{
+	opacity: 0.6;
+}
+
+
+
+.contacts_social-list-item:first-child{
+	margin-top: 0;
+}
+
+/* FOOTER */
+
+footer{
+	text-align: center;
+	padding: 20px 0;
+	font-weight: 700;
+	font-size: 14px;
+	color: #121f27;
+}
+
+footer a{
+	text-decoration: none;
+	color: #121f27;
+}
+
+footer a:hover{
+	opacity: 0.6;
+}
